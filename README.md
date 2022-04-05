@@ -1,29 +1,26 @@
-# ibmrcms
+## IBM RCMS CLI README
 
-
-
-
-IBM RCMS & Retain System Terminal Tools for Macos
+### IBM RCMS & Retain System Terminal Tools for Macos
 
 ---------------
 FUNCTION I. CR
 ---------------
 1. Call Read
-    Usage:  cr,<Call No.>
+    `Usage:  cr,<Call No.>`
 2. Call Read every 30 seconds waiting for parts PO
-    Usage:  cr,<Call No.>,w
+    `Usage:  cr,<Call No.>,w`
 
 ---------------
 FUNCTION II. CS
 ---------------
 1. Call Search for current login user
-    Usage: cs
+    `Usage: cs`
 2. Call Search for user specified
-    Usage: cs,<Notes ID>
+    `Usage: cs,<Notes ID>`
 3. Type of Call Search for user specified
-    Usage: cs,<Notes ID>,CRR|INS|MES|PMA
+    `Usage: cs,<Notes ID>,CRR|INS|MES|PMA`
 4. IPS Call Search for user specified
-    Usage: cs,SDLINC,<Notes ID>
+    `Usage: cs,SDLINC,<Notes ID>`
 
 ----------------
 FUNCTION III. CI
@@ -83,16 +80,16 @@ FUNCTION VI. PMH
 NECESSARY PACKAGE
 -----------------
 1. python3 for MacOS or Windows
-# Download from website and double click install
+#### Download from website and double click install
 
 2. s3270 for MacOS/Linux or ws3270 for Windows
-# Download from website, compile & install.
-# Or install via homebrew
+#### Download from website, compile & install.
+#### Or install via homebrew
 
 3. openpyxl for python3
-# pip3 install openpyxl
+`pip3 install openpyxl`
 
 Start Program:
-# python3 rcmsMenu.py
+`python3 rcmsMenu.py`
 
 
